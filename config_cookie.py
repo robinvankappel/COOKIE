@@ -1,23 +1,23 @@
 import string
 import os
-cwd = os.path.dirname(os.path.abspath(__file__))
+COOKIE_DIR = 'D:\\cookie\\'
 
 """INPUT PARAMETERS FOR COOKIE SOLVING"""
 #DEFINITION OF WATCHERS
-WATCHERS = 3 # Number of watchers used for cookie_maker and cookie_sender
+WATCHERS = 10 # Number of watchers used for cookie_maker and cookie_sender
 #LOCATION OF TREES
-FLOP_DIR = 'E:\\60bb_dreamconfig\\'
-PROCESSED_FLOPS_DIR = 'E:\\60bb_dreamconfig\\processed_flops\\' #location where trees are moved to after processing
+FLOP_DIR = 'E:\\dreamconfigs\\'
+PROCESSED_FLOPS_DIR = 'E:\\dreamconfigs\\processed_flops\\' #location where trees are moved to after processing
 MOVE_PROCESSED_FLOPS = True  # move the flops which have been handled to PROCESSED_FLOPS_DIR
 #LOCATION OF PIO
-PIO_DIR = 'C:\\PioSOLVER-edge\\'
-PIO_NAME = 'PioSOLVER-edge19.exe'
+PIO_DIR = 'C:\\PioSOLVER-pro\\'
+PIO_NAME = 'PioSOLVER-pro19.exe'
 #LOG FILE
-LOG_NAME = 'cookie_log.log'
+LOG_NAME = 'dev_machine.log'
 
 """DERIVED PARAMETERS"""
-WATCH_DIR = os.path.join(cwd,'cookies\\') #folder to watch
-LOG_FILE = os.path.join(cwd,LOG_NAME) #folder to watch
+WATCH_DIR = os.path.join(COOKIE_DIR,'cookies\\') #folder to watch
+LOG_FILE = os.path.join(COOKIE_DIR,'Dropbox','CM_logs',LOG_NAME) #folder to watch
 
 #Class which defines all info about which folders are being used and watched
 class Watchers():
