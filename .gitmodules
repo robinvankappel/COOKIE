@@ -5,8 +5,8 @@
 	path = cookie_sender
 	url = https://robinvankappel@bitbucket.org/cookiemonstershq/watcher.git
 [submodule "watcher"]
-	path = watcher
+	path = cookie_sender
 	url = https://github.com/robinvankappel/watcher.git
 [submodule "db-filler"]
-	path = db-filler
+	path = cookie_maker
 	url = https://github.com/robinvankappel/db-filler.git
