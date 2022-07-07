@@ -1,3 +1,13 @@
+DESCRIPTION
+###
+A two step program to acquire the GTO solutions from Pio for a predefined set of poker situations.
+Includes the possibility to split the set into subsets so that solving can be done on multiple instances.
+
+cookie-maker: generate results from Pio for a predefined set of poker situations (pot type, opening bet,flop,situation)
+cookie-sender: watch for new results from cookie-maker and send them to API
+
+_________
+SETUP OF NEW INSTANCE TO SOLVE
 ### Basics, cookie_maker and cookie_sender ###
 download and install git bash @https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjysMPeobbSAhWRDRoKHSFlBVwQFggoMAE&url=https%3A%2F%2Fgit-scm.com%2Fdownload%2Fwin&usg=AFQjCNGgkEevr3G3s0qGAw9_URQwLcb5CQ&sig2=UZOYlsE6HGILM5exJ6FdvQ
 
@@ -17,5 +27,5 @@ start cookie_sender/cookie_sender.pyc
 start cookie_maker/cookie_maker.pyc
 
 _________
-tips and tricks:
+TIPS
 -if program returns 'pftables.dat is missing' then this file cannot be found in the current working directory. The batch file which calls this function should be run as administrator. Therefore disable UAC (User Account Control of Windows); restart is required.
