@@ -1,6 +1,6 @@
 DESCRIPTION
 ###
-A two step program to acquire the GTO solutions from Pio for a predefined set of poker situations.
+A two step program to acquire the GTO solutions from PioSolver for a predefined set of poker situations.
 Includes the possibility to split the set into subsets so that solving can be done on multiple instances.
 
 cookie-maker: generate results from Pio for a predefined set of poker situations (pot type, opening bet,flop,situation)
